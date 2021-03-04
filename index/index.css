@@ -27,20 +27,21 @@ body{
 }
 
 #projects {
-    top: 95px;
+    top: 96px;
     background-color: #C4C4C4; 
 }
   
 #contact {
-    top: 170px;
+    top: 173px;
     background-color: #C4C4C4
 }
 #pasta{
     border:100px;
     width: 35px;
 }
-#celular{
-    width: 32px;
+#arroba{
+    height: 35px;
+    width: auto;
 }
 
 #marcello{
