@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+body{
+    background: #C4C4C4;
+}
+
+#btnvoltar{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 21px;
+    top: 657px;
+}
+
+#profile{    
+    position: absolute;
+    width: 449px;
+    height: 756px;
+    left: 129px;
+    top: 5px;
+
+    background: #151515;
+    border-radius: 37px;
+}
+#me{
+    position: absolute;
+    width: 182px;
+    height: 182px;
+    left: 126px;
+    top: 25px;
+
+    background: url(me.png);
+    border: 10px solid #052838;
+    box-sizing: border-box;
+    border-radius: 320px;
+}
+
+#textme{
+    position: absolute;
+    width: 410px;
+    height: 150px;
+    left: 38px;
+    top: 198px;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+#curriculolink{
+    position: absolute;
+    width: 260px;
+    height: 31px;
+    left: 85px;
+    top: 672px;
+    text-decoration: none;
+
+    font-family: Archivo Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+}
+
+#textescola{
+    position: absolute;
+    width: 429px;
+    height: 237px;
+    left: 22px;
+    top: 388px;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+#competencias{
+    position: absolute;
+    width: 283px;
+    height: 65px;
+    left: 695px;
+    top: -39px;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 65px;
+
+    color: #000;
+
+}
+
+#compbox{
+    position: absolute;
+    width: 786px;
+    height: 331px;
+    left: 703px;
+    top: 75px;
+
+    background: #E99536;
+    border-radius: 63px 172px 48px 58px;
+}
+
+#textcomp{
+    position: absolute;
+    width: 627px;
+    height: 309px;
+    left: 75px;
+    top: -11px;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 34px;
+
+    color: #000000;
+}
+
+#objetivo{
+    position: absolute;
+    width: 171px;
+    height: 65px;
+    left: 707px;
+    top: 378px;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 65px;
+    /* identical to box height */
+    color: #000;
+}
+#objbox{
+    position: absolute;
+    width: 753px;
+    height: 229px;
+    left: 719px;
+    top: 490px;
+
+    background: #151515;
+    border-radius: 63px 172px 48px 58px;
+}
+#textobj{
+    position: absolute;
+    width: 708px;
+    height: 192px;
+    left: 30px;
+    top: 5px;
+
+    font-family: Archivo Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: #FFFFFF;
+}
