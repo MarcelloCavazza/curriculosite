@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    background: #151515;
+}
+header{
+    position: absolute;
+    width: 230px;
+    height: 55px;
+    left: 87px;
+    top: 23px;
+
+    background: #C4C4C4;
+}
+
+header div{
+    position: absolute;
+    width: 130px;
+    height: 23px;
+    left: 43px;
+    top: 18px;
+
+    background: #E99536;
+}
+
+header p{
+    position: absolute;
+    width: 138px;
+    height: 45px;
+    left: 30px;
+    top: -45px;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 65px;
+
+    color: #2C2B2B;
+}
+
+#boxfront1{
+    position: absolute;
+    width: 345px;
+    height: 487px;
+    left: 120px;
+    top: 148px;
+
+    background: #B1B1B1;
+}
+#boxback1{
+    position: absolute;
+    width: 345px;
+    height: 487px;
+    left: 141px;
+    top: 166px;
+    background: #E99536;
+}
+
+#boxfront2{
+    position: absolute;
+    width: 345px;
+    height: 487px;
+    left: 557px;
+    top: 148px;
+
+    background: #B1B1B1;
+}
+#boxback2{
+    position: absolute;
+    width: 345px;
+    height: 487px;
+    left: 574px;
+    top: 166px;
+
+    background: #052838;
+}
+
+#boxfront3{
+    position: absolute;
+    width: 345px;
+    height: 487px;
+    left: 1014px;
+    top: 148px;
+
+    background: #B1B1B1;
+}
+#boxback3{
+    position: absolute;
+    width: 345px;
+    height: 487px;
+    left: 1031px;
+    top: 166px;
+
+    background: #FFFFFF;
+}
+
+#btngit{
+    position: absolute;
+    width: 236px;
+    height: 49px;
+    left: 350px;
+    top: 690px;
+
+    background: #C4C4C4;
+}
+
+#linkgit{
+    position: absolute;
+    width: 211px;
+    height: 57px;
+    left: 23px;
+    top: 0px;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-decoration: none;
+
+    color: #343434;
+}
+
+#divgit{
+    position: absolute;
+    width: 181px;
+    height: 15px;
+    left: 46px;
+    top: 20px;
+
+    background: #E99536;
+    border-radius: 11.5px 0px 0px 0px;
+}
+
+#btnvoltar{
+    position: absolute;
+    width: 260px;
+    height: 49px;
+    left: 857px;
+    top: 690px;
+
+    background: #C4C4C4;
+}
+#divolt{
+    position: absolute;
+    width: 202px;
+    height: 15px;
+    left: 34px;
+    top: 20px;
+
+    background: #E99536;
+    border-radius: 11.5px 0px 0px 0px;
+}
+#linkhome{
+    position: absolute;
+    width: 211px;
+    height: 57px;
+    left: 15px;
+    top: 0px;
+    text-decoration: none;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+
+    color: #343434;
+
+}
