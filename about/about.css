@@ -57,14 +57,19 @@ body{
     left: 85px;
     top: 672px;
     text-decoration: none;
+    transition: 0.3s;
+    border: 1px #C4C4C4;
 
-    font-family: Archivo Narrow;
+    font-family: 'Archivo Narrow';
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
     line-height: 43px;
 
     color: #FFFFFF;
+}
+#curriculolink:hover{
+    color: #868686;
 }
 
 #textescola{
