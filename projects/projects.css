@@ -9,6 +9,7 @@ header{
     height: 55px;
     left: 87px;
     top: 23px;
+    border-radius: 0px 12px 12px 12px;
 
     background: #C4C4C4;
 }
@@ -45,8 +46,12 @@ header p{
     height: 487px;
     left: 120px;
     top: 148px;
+    transition: 0.3s;
 
     background: #B1B1B1;
+}
+#boxfront1:hover{
+    background: #969696;
 }
 #boxback1{
     position: absolute;
@@ -63,8 +68,12 @@ header p{
     height: 487px;
     left: 557px;
     top: 148px;
+    transition: 0.3s;
 
     background: #B1B1B1;
+}
+#boxfront2:hover{
+    background: #969696;
 }
 #boxback2{
     position: absolute;
@@ -82,8 +91,12 @@ header p{
     height: 487px;
     left: 1014px;
     top: 148px;
+    transition: 0.3s;
 
     background: #B1B1B1;
+}
+#boxfront3:hover{
+    background: #969696;
 }
 #boxback3{
     position: absolute;
@@ -101,8 +114,12 @@ header p{
     height: 49px;
     left: 350px;
     top: 690px;
-
-    background: #C4C4C4;
+    border-radius: 12px;
+    transition: 0.3s;
+    background: #E99536;
+}
+#btngit:hover{
+    background: #b8762b;
 }
 
 #linkgit{
@@ -119,18 +136,7 @@ header p{
     line-height: 48px;
     text-decoration: none;
 
-    color: #343434;
-}
-
-#divgit{
-    position: absolute;
-    width: 181px;
-    height: 15px;
-    left: 46px;
-    top: 20px;
-
-    background: #E99536;
-    border-radius: 11.5px 0px 0px 0px;
+    color: rgb(27, 27, 27);
 }
 
 #btnvoltar{
@@ -139,24 +145,20 @@ header p{
     height: 49px;
     left: 857px;
     top: 690px;
+    transition: 0.3s;
+    border-radius: 12px;
 
     background: #C4C4C4;
 }
-#divolt{
-    position: absolute;
-    width: 202px;
-    height: 15px;
-    left: 34px;
-    top: 20px;
-
-    background: #E99536;
-    border-radius: 11.5px 0px 0px 0px;
+#btnvoltar:hover{
+    background: #999999;
 }
+
 #linkhome{
     position: absolute;
     width: 211px;
     height: 57px;
-    left: 15px;
+    left: 23px;
     top: 0px;
     text-decoration: none;
 
@@ -168,4 +170,88 @@ header p{
 
     color: #343434;
 
+}
+
+#projectimage{
+    position: absolute;
+    width: 304px;
+    height: 341px;
+    left: 121px;
+    top: 273px;
+
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+
+.projectprint{
+    width: 100px;
+}
+
+.articleimage{
+    width: 100%;
+    height: 200px;
+    background-size: cover !important;
+    background-position: center !important;
+    position: absolute;
+    width: 204px;
+    height: 241px;
+    left: 70px;
+    top: 83px;
+
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+
+.titleproject{
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    height: 65px;
+    left: 115px;
+    top: 38px;
+}
+
+button{
+    position: absolute;
+    width: 265px;
+    height: 48px;
+    left: 40px;
+    top: 399px;
+    transition: 0.1s;
+    background-color: #4caf4f00;
+    border: 0.9px solid;
+    border-radius: 12px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+}
+.btnprojeto{
+    position: absolute;
+    width: 222px;
+    height: 40px;
+    left: 55px;
+    top: -2px;
+    text-decoration: none;
+    background: #ffffff00;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+
+    color: #000000;
+}
+
+button:hover{
+    border: 2px #000 solid;
+    background-color: #5c5c5c60;
 }
