@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    background: #151515;
+}
+
+#boxcontact{
+    position: absolute;
+    width: 960px;
+    height: 542px;
+    left: 280px;
+    top: 92px;
+    
+    background: #C4C4C4;
+    border-radius: 0px 161px 161px 161px;
+}
+
+#contacttitle{
+    position: absolute;
+    width: 380.62px;
+    height: 104.84px;
+    left: 93px;
+    top: -10px;
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: #000000;
+}
+#emailicon{
+    position: absolute;
+    left: 147.06px;
+    top: 104.42px;
+}
+#emailid{
+    position: absolute;
+    width: 666.08px;
+    height: 51.61px;
+    left: 208px;
+    top: 90.42px;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+
+    color: #000000;
+}
+
+#callicon{
+    position: absolute;
+    left: 155.06px;
+    top: 164.42px;
+}
+#callid{
+    position: absolute;
+    width: 655px;
+    height: 58px;
+    left: 208px;
+    top: 159.42px;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 51px;
+
+    color: #000000;
+}
+
+#redestitle{
+    position: absolute;
+    width: 579.2px;
+    height: 71.38px;
+    left: 93px;
+    top: 182px;
+
+    font-family: Archivo Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+
+    color: #000000;
+}
+
+#instagramicon{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 145.06px;
+    top: 304.35px;
+
+    background: url(../icons/instagram-round-icon-png-14.png);
+}
+#instagramid{
+    position: absolute;
+    width: 156px;
+    height: 65px;
+    left: 221px;
+    top: 295.35px;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 65px;
+
+
+    color: #000000;
+}
+
+#linkedinicon{
+    position: absolute;
+    width: 55px;
+    height: 52px;
+    left: 149px;
+    top: 365px;
+
+   
+    border-radius: 10px;
+}
+#linkedinid{
+    position: absolute;
+    width: 312.35px;
+    height: 51.61px;
+    left: 218px;
+    top: 360px;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 65px;
+
+    color: #000000;
+}
+
+#giticon{
+    position: absolute;
+    width: 65px;
+    height: 58px;
+    left: 145px;
+    top: 430.42px;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 51px;
+
+    color: #000000;
+}
+
+#gitid{
+    position: absolute;
+    width: 312.35px;
+    height: 51.61px;
+    left: 218px;
+    top: 430px;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 65px;
+
+    color: #000000;
+}
+footer{
+    position: absolute;
+    width: 247px;
+    height: 56px;
+    left: 1279px;
+    top: 673px;
+    transition: 0.3s;
+
+    background: #2e2e2e;
+    border-radius: 15px 1px 15px 15px;
+}
+footer a p{
+    position: absolute;
+    width: 220px;
+    height: 36px;
+    left: 39px;
+    top: -16px;
+    
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+footer:hover{
+    background: #E99536;
+}
+#whats{
+    text-decoration: none;
+    color: #00a354;
+}
+
+#telegram{
+    text-decoration: none;
+    color: #27A7E5;
+}
+
+#instruction{
+    position: absolute;
+    width: 300px;
+    height: 36px;
+    left: 158px;
+    top: 475px;
+
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 36px;
+
+    color: #000;
+}
