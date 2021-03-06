@@ -51,7 +51,7 @@ body{
     left: 470px;
     top: 23px;
 
-    font-family: Archivo Narrow;
+    font-family: 'Archivo Narrow';
     font-style: italic;
     font-weight: 500;
     font-size: 96px;
@@ -67,7 +67,7 @@ body{
     left: 782px;
     top: 118px;
 
-    font-family: Archivo Narrow;
+    font-family: 'Archivo Narrow';
     font-style: italic;
     font-weight: 500;
     font-size: 96px;
@@ -105,7 +105,7 @@ footer{
     top: 280px;
     padding: 250px 250px 250px;
 
-    font-family: Archivo Narrow;
+    font-family: 'Archivo Narrow';
     font-style: italic;
     font-weight: normal;
     font-size: 36px;
