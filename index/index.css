@@ -1,121 +1,176 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+*{
+    box-sizing: border-box;
+}
 body{
     background: #151515;
 }
-
-#mySidenav a {
-    position: absolute;
-    left: -80px;
-    transition: 0.3s; 
-    padding: 15px;
-    width: 145px;
-    text-decoration: none;
-    font-size: 20px; 
-    color: #C4C4C4; 
-    border-radius: 0 5px 5px 0;
-    font-family: 'Archivo Narrow', sans-serif;
-    font-weight: 600;
-}
-
-#mySidenav a:hover {
-    left: 0;
-    color: #000;
-}
-#about {
-    top: 20px;
-    background-color: #C4C4C4;
-}
-
-#projects {
-    top: 96px;
-    background-color: #C4C4C4; 
-}
+/* *Comandos Para Responsividade -- Responsive Code* */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+ }
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
   
-#contact {
-    top: 173px;
-    background-color: #C4C4C4
-}
-#pasta{
-    border:100px;
-    width: 35px;
-}
-#arroba{
-    height: 35px;
-    width: auto;
-}
-
-#marcello{
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  a{
+    top: -7.5vw;
+  }
+  .boxicons{
+    height: 17vw;
     position: absolute;
-    width: 384px;
-    height: 163px;
-    left: 470px;
-    top: 23px;
-
-    font-family: 'Archivo Narrow';
-    font-style: italic;
-    font-weight: 500;
-    font-size: 96px;
-    line-height: 129px;
-
-    color: #FFFFFF;
-}
-
-#cavazza{
+  }
+  #project{
+    left: 24vw;
+  }
+  #about{
+    left: 45vw;
+  }
+  #contact{
+    left: 66vw;
+  }
+  .iconstopbar{
     position: absolute;
-    width: 389px;
-    height: 163px;
-    left: 782px;
-    top: 118px;
-
-    font-family: 'Archivo Narrow';
-    font-style: italic;
-    font-weight: 500;
-    font-size: 96px;
-    line-height: 129px;
-
-    color: #FFFFFF;
+    left: 5vw;
+    width: 6vw;
+    top: 9vw;
+  }
+  #txtmarcello{
+    left: 20vw;
+    top: 25.5vw;
+    font-size: 11vw;
+  }
+  #txtcavazza{
+    left: 35vw;
+    top: 38.5vw;
+    font-size: 11vw;
+  }
+  #boxmarcello{
+    width: 34vw;
+    height: 3.5vw;
+    left: 25vw;
+    top: 33.7vw;
+  }
+  #boxcavazza{
+    width: 29vw;
+    height: 3.4vw;
+    left: 46vw;
+    top: 46.5vw;
+  }
+  #stylemotivation{
+    left: 3.5vw;
+    top: 75vw;
+    font-size: 4.5vw;
+  }
+  header a:hover{
+    top: -5vw;
+    background: #c4c4c46c;
+  }
+  .col-ex-1 {width: 8.33%;}
+  .col-ex-2 {width: 16.66%;}
+  .col-ex-3 {width: 25%;}
+  .col-ex-4 {width: 33.33%;}
+  .col-ex-5 {width: 41.66%;}
+  .col-ex-6 {width: 50%;}
+  .col-ex-7 {width: 58.33%;}
+  .col-ex-8 {width: 66.66%;}
+  .col-ex-9 {width: 75%;}
+  .col-ex-10 {width: 83.33%;}
+  .col-ex-11 {width: 91.66%;}
+  .col-ex-12 {width: 100%;}
 }
-#marcellobox{
-    position: absolute;
-    width: 311px;
-    height: 34px;
-    left: 491px;
-    top: 184px;
-
-    background: #052838;
-    border-radius: 1px 1px 16px 1px;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .col-m-1 {width: 8.33%;}
+  .col-m-2 {width: 16.66%;}
+  .col-m-3 {width: 25%;}
+  .col-m-4 {width: 33.33%;}
+  .col-m-5 {width: 41.66%;}
+  .col-m-6 {width: 50%;}
+  .col-m-7 {width: 58.33%;}
+  .col-m-8 {width: 66.66%;}
+  .col-m-9 {width: 75%;}
+  .col-m-10 {width: 83.33%;}
+  .col-m-11 {width: 91.66%;}
+  .col-m-12 {width: 100%;}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .col-l-1 {width: 8.33%;}
+  .col-l-2 {width: 16.66%;}
+  .col-l-3 {width: 25%;}
+  .col-l-4 {width: 33.33%;}
+  .col-l-5 {width: 41.66%;}
+  .col-l-6 {width: 50%;}
+  .col-l-7 {width: 58.33%;}
+  .col-l-8 {width: 66.66%;}
+  .col-l-9 {width: 75%;}
+  .col-l-10 {width: 83.33%;}
+  .col-l-11 {width: 91.66%;}
+  .col-l-12 {width: 100%;}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .col-el-1 {width: 8.33%;}
+  .col-el-2 {width: 16.66%;}
+  .col-el-3 {width: 25%;}
+  .col-el-4 {width: 33.33%;}
+  .col-el-5 {width: 41.66%;}
+  .col-el-6 {width: 50%;}
+  .col-el-7 {width: 58.33%;}
+  .col-el-8 {width: 66.66%;}
+  .col-el-9 {width: 75%;}
+  .col-el-10 {width: 83.33%;}
+  .col-el-11 {width: 91.66%;}
+  .col-el-12 {width: 100%;}
 }
 
-#cavazzabox{
-    position: absolute;
-    width: 291px;
-    height: 30px;
-    left: 835px;
-    top: 287px;
-
-    background: #052838;
-    border-radius: 1px 1px 15px 1px;
+/* *codigos fixos -- default code* */
+a{
+  background: #C4C4C4;
+  border-radius: 0px 0px 90vw 90vw;
+  text-decoration: none;
+  font-family: 'Archivo Narrow';
+  transition: 0.3s;
 }
 
-footer{
-    position: absolute;
-    width: 755px;
-    height: 48px;
-    left: 215px;
-    top: 280px;
-    padding: 250px 250px 189px 250px;
 
-    font-family: 'Archivo Narrow';
-    font-style: italic;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 48px;
-
-    color: #e9963618;
-    transition: 0.3s;
-    
+.maintxt{
+  position: absolute;
+  font-family: 'Archivo Narrow';
+  font-style: italic;
+  color: #FFFFFF;
+  font-weight: 500;
 }
-
-footer:hover{
-    color: #E99536;
+.backbox{
+  background: #052838;
+  border-radius: 0vw 0vw 16vw 1vw;
+  position: absolute;
+}
+.motivationtxt{
+  position: absolute;
+  font-family: 'Archivo Narrow';
+  font-style: italic;
+  color: #E99536;
+  font-weight: normal;
 }
