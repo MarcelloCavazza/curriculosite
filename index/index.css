@@ -1,11 +1,13 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-*{
-    box-sizing: border-box;
-}
+/* *Comando Gerais -- General Commands* */
 body{
     background: #151515;
 }
 /* *Comandos Para Responsividade -- Responsive Code* */
+*{
+    box-sizing: border-box;
+}
 .row::after {
     content: "";
     clear: both;
@@ -43,11 +45,13 @@ body{
   #txtmarcello{
     left: 20vw;
     top: 25.5vw;
+    width: 12vw;
     font-size: 11vw;
   }
   #txtcavazza{
     left: 35vw;
     top: 38.5vw;
+    width: 12vw;
     font-size: 11vw;
   }
   #boxmarcello{
@@ -86,6 +90,61 @@ body{
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  a{
+    top: -7.5vw;
+  }
+  .boxicons{
+    height: 16vw;
+    position: absolute;
+  }
+  #project{
+    left: 24vw;
+  }
+  #about{
+    left: 45vw;
+  }
+  #contact{
+    left: 66vw;
+  }
+  .iconstopbar{
+    position: absolute;
+    left: 5vw;
+    width: 6vw;
+    top: 9vw;
+  }
+  #txtmarcello{
+    left: 20vw;
+    top: 25.5vw;
+    width: 12vw;
+    font-size: 11vw;
+  }
+  #txtcavazza{
+    left: 35vw;
+    top: 38.5vw;
+    width: 12vw;
+    font-size: 11vw;
+  }
+  #boxmarcello{
+    width: 34vw;
+    height: 3.5vw;
+    left: 25vw;
+    top: 33.7vw;
+  }
+  #boxcavazza{
+    width: 29vw;
+    height: 3.4vw;
+    left: 46vw;
+    top: 46.5vw;
+  }
+  #stylemotivation{
+    left: 13 .5vw;
+    top: 60vw;
+    font-size: 4.5vw;
+  }
+  header a:hover{
+    top: -5vw;
+    background: #c4c4c46c;
+  }
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
   .col-s-3 {width: 25%;}
