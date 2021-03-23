@@ -70,6 +70,7 @@ body{
     left: 3.5vw;
     top: 75vw;
     font-size: 4.5vw;
+    width: 90vw;
   }
   header a:hover{
     top: -5vw;
@@ -137,9 +138,10 @@ body{
     top: 46.5vw;
   }
   #stylemotivation{
-    left: 13 .5vw;
+    left: 3.5vw;
     top: 60vw;
     font-size: 4.5vw;
+    width: 90vw;
   }
   header a:hover{
     top: -5vw;
@@ -160,6 +162,62 @@ body{
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  a{
+    top: -7.5vw;
+  }
+  .boxicons{
+    height: 16vw;
+    position: absolute;
+  }
+  #project{
+    left: 14vw;
+  }
+  #about{
+    left: 40vw;
+  }
+  #contact{
+    left: 66vw;
+  }
+  .iconstopbar{
+    position: absolute;
+    left: 5vw;
+    width: 6vw;
+    top: 9vw;
+  }
+  #txtmarcello{
+    left: 20vw;
+    top: 15.5vw;
+    width: 12vw;
+    font-size: 11vw;
+  }
+  #txtcavazza{
+    left: 35vw;
+    top: 28.5vw;
+    width: 12vw;
+    font-size: 11vw;
+  }
+  #boxmarcello{
+    width: 34vw;
+    height: 3.5vw;
+    left: 25vw;
+    top: 23.7vw;
+  }
+  #boxcavazza{
+    width: 29vw;
+    height: 3.4vw;
+    left: 46vw;
+    top: 36.5vw;
+  }
+  #stylemotivation{
+    left: 3.5vw;
+    top: 50vw;
+    font-size: 4.5vw;
+    width: 90vw;
+  }
+  header a:hover{
+    top: -5vw;
+    background: #c4c4c46c;
+  }
   .col-m-1 {width: 8.33%;}
   .col-m-2 {width: 16.66%;}
   .col-m-3 {width: 25%;}
@@ -175,6 +233,62 @@ body{
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  a{
+    top: -7.5vw;
+  }
+  .boxicons{
+    height: 16vw;
+    position: absolute;
+  }
+  #project{
+    left: 14vw;
+  }
+  #about{
+    left: 40vw;
+  }
+  #contact{
+    left: 66vw;
+  }
+  .iconstopbar{
+    position: absolute;
+    left: 5vw;
+    width: 6vw;
+    top: 9vw;
+  }
+  #txtmarcello{
+    left: 20vw;
+    top: 15.5vw;
+    width: 12vw;
+    font-size: 6vw;
+  }
+  #txtcavazza{
+    left: 35vw;
+    top: 28.5vw;
+    width: 12vw;
+    font-size: 6vw;
+  }
+  #boxmarcello{
+    width: 24vw;
+    height: 2.5vw;
+    left: 25vw;
+    top: 19.5vw;
+  }
+  #boxcavazza{
+    width: 19vw;
+    height: 2.4vw;
+    left: 46vw;
+    top: 32.6vw;
+  }
+  #stylemotivation{
+    left: 8.5vw;
+    top: 50vw;
+    font-size: 3.5vw;
+    width: 80vw;
+  }
+  header a:hover{
+    top: -5vw;
+    background: #c4c4c46c;
+  }
   .col-l-1 {width: 8.33%;}
   .col-l-2 {width: 16.66%;}
   .col-l-3 {width: 25%;}
@@ -190,6 +304,62 @@ body{
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  a{
+    top: -7.5vw;
+  }
+  .boxicons{
+    height: 12vw;
+    position: absolute;
+  }
+  #project{
+    left: 14vw;
+  }
+  #about{
+    left: 40vw;
+  }
+  #contact{
+    left: 66vw;
+  }
+  .iconstopbar{
+    position: absolute;
+    left: 7vw;
+    width: 2vw;
+    top: 9vw;
+  }
+  #txtmarcello{
+    left: 30vw;
+    top: 15.5vw;
+    width: 12vw;
+    font-size: 6vw;
+  }
+  #txtcavazza{
+    left: 45vw;
+    top: 20.5vw;
+    width: 12vw;
+    font-size: 6vw;
+  }
+  #boxmarcello{
+    width: 19vw;
+    height: 2.5vw;
+    left: 35vw;
+    top: 19vw;
+  }
+  #boxcavazza{
+    width: 16vw;
+    height: 2.6vw;
+    left: 52vw;
+    top: 24.2vw;
+  }
+  #stylemotivation{
+    left: 19.5vw;
+    top: 35vw;
+    font-size: 2.5vw;
+    width: 70vw;
+  }
+  header a:hover{
+    top: -5vw;
+    background: #c4c4c46c;
+  }
   .col-el-1 {width: 8.33%;}
   .col-el-2 {width: 16.66%;}
   .col-el-3 {width: 25%;}
