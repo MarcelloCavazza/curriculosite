@@ -71,6 +71,10 @@
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
   }
+
+  html {
+    color-scheme: dark;
+  }
 }
 
 * {
@@ -79,7 +83,7 @@
   margin: 0;
 }
 
-html,
+/* html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
@@ -98,10 +102,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
+} */
