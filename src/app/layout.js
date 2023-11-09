@@ -3,16 +3,15 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] });
 
 export default function RootLayout({ children }) {
-  const language = navigator.language === "pt-BR" ? "pt-BR" : "en";
 
   return (
-    <html lang={language}>
+    <html lang={"en"}>
       <body className={inter.className}>{children}</body>
     </html>
   )
 }
 
 export const metadata = {
-  title: "Currículo Cavazza",
-  description: "Meu currículo!",
+  title: "Cavazza's Resume",
+  description: "Cavazza's Resume",
 }
