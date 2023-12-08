@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../sideNav.css">
     <link rel="stylesheet" href="about.css">
     <title>Sobre</title>
 </head>
 <body>
     <aside>
-        <a href="../index.html">
+        <div id="mySidenav" class="sidenav">
+            <a href="about/about.html" id="activeNavSide">Sobre Mim <img src="../icons/outline_person_black_24dp.png"></a>
+            <a href="projects/projects.html" id="projects">Projetos &nbsp; &nbsp; <img id="pasta"src="../icons/outline_work_black_24dp.png"></a>
+            <a href="contact/contact.html" id="contact">Contatos &nbsp; &nbsp; <img id="arroba"src="../icons/baseline_alternate_email_black_18dp.png"></a>
+          </div>
+    </aside>
+    <aside>
+        <!-- <a href="../index.html">
             <img id="btnvoltar"src="../icons/outline_subdirectory_arrow_left_white_24dp.png" >
-        </a>
+        </a> -->
         
+        
+    </aside>
+    <div>
         <div id="profile">
             <img id="me"src="me.jpg">
             <p id="textme"><span class="bold">Nome:</span> Marcello H. Cavazza Oliveira<br>
@@ -26,8 +37,6 @@
                 Currículo Detalhado
             </a>
         </div>
-    </aside>
-    <div>
         <div id="competencias">
             <p>Competências:</p>
         </div>

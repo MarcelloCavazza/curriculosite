@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s; 
+    padding: 15px;
+    width: 145px;
+    text-decoration: none;
+    font-size: 20px; 
+    border-radius: 0 5px 5px 0;
+    font-weight: 600;
+}
+
+#mySidenav{
+    font-family: 'Archivo Narrow';
+    font-style: italic;
+}
+
+#activeNavSide{
+    left: 0px !important;
+    top: 20px;
+    text-decoration: none;
+    color: #000;
+    background-color: #C4C4C4;
+    display: flex;
+}
+
+#mySidenav a:hover {
+    left: 0;
+    color: #000;
+    background-color: #797979;
+}
+#about {
+    display: flex;
+    top: 20px;
+    color: #C4C4C4; 
+    background-color: #C4C4C4;
+}
+
+#projects {
+    display: flex;
+    color: #C4C4C4; 
+    top: 96px;
+    background-color: #C4C4C4; 
+}
+  
+#contact {
+    display: flex;
+    color: #C4C4C4; 
+    top: 173px;
+    background-color: #C4C4C4
+}
+#pasta{
+    border:100px;
+    width: 35px;
+}
+#arroba{
+    height: 35px;
+    width: auto;
+}
