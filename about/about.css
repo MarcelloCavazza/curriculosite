@@ -3,34 +3,21 @@ body{
     background: #151515;
 }
 
-#btnvoltar{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 21px;
-    top: 657px;
-    transition: 0.3s;
-}
-#btnvoltar:hover{
-    opacity: 0.5;
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
 }
 
-#profile{    
-    position: absolute;
-    width: 449px;
-    height: 656px;
-    left: 129px;
-    top: 55px;
-
+#profile{
+    padding: 1vw;
     background: #e99636d7;
-    border-radius: 37px;
+    border-radius: 1vw;
 }
 #me{
-    position: absolute;
     width: 120px;
     height: 120px;
-    left: 16px;
-    top: 12px;
 
     background: url(me.png);
     border: 10px solid #052838;
@@ -39,11 +26,8 @@ body{
 }
 
 #textme{
-    position: absolute;
     width: 410px;
     height: 150px;
-    left: 38px;
-    top: 108px;
 
     font-family: 'Archivo Narrow';
     font-style: normal;
@@ -59,11 +43,9 @@ body{
 }
 
 #curriculolink{
-    position: absolute;
     width: 260px;
     height: 31px;
-    left: 85px;
-    top: 572px;
+
     text-decoration: none;
     transition: 0.3s;
     border: 1px #C4C4C4;
@@ -81,11 +63,8 @@ body{
 }
 
 #textescola{
-    position: absolute;
     width: 429px;
     height: 237px;
-    left: 22px;
-    top: 288px;
 
     font-family: 'Archivo Narrow';
     font-style: normal;
@@ -97,11 +76,8 @@ body{
 }
 
 #competencias{
-    position: absolute;
     width: 283px;
     height: 65px;
-    left: 695px;
-    top: -39px;
 
     font-family: 'Archivo Narrow';
     font-style: normal;
@@ -114,22 +90,16 @@ body{
 }
 
 #compbox{
-    position: absolute;
     width: 786px;
     height: 331px;
-    left: 703px;
-    top: 75px;
 
     background: #e99636d7;
     border-radius: 63px 172px 48px 58px;
 }
 
 #textcomp{
-    position: absolute;
     width: 627px;
     height: 309px;
-    left: 75px;
-    top: -11px;
 
     font-family: 'Archivo Narrow';
     font-style: normal;
@@ -141,11 +111,8 @@ body{
 }
 
 #objetivo{
-    position: absolute;
     width: 171px;
     height: 65px;
-    left: 707px;
-    top: 378px;
 
     font-family: 'Archivo Narrow';
     font-style: normal;
@@ -156,21 +123,15 @@ body{
     color: rgba(255, 255, 255, 0.692);
 }
 #objbox{
-    position: absolute;
     width: 753px;
     height: 229px;
-    left: 719px;
-    top: 490px;
 
     background: #e99636d7;
     border-radius: 63px 172px 48px 58px;
 }
 #textobj{
-    position: absolute;
     width: 708px;
     height: 192px;
-    left: 30px;
-    top: 5px;
 
     font-family: 'Archivo Narrow';
     font-style: normal;
